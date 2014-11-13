@@ -1,5 +1,5 @@
+/*RESET CSS*/
 @CHARSET "ISO-8859-1";
-/*CSS RESET*/
 html, body, div, span,
 applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -34,51 +34,4 @@ ol, ul {
 
 :active, :hover, :visited, :link {
 	text-decoration: none;
-}
-
-/*CUSTOM CSS */
-body {
-	padding: 20px;
-}
-h1 {
-	font-size: 32px;
-}
-
-#leftColumn, #rightColumn {
-	margin-top: 20px;
-	padding: 20px;
-	display: block;
-	float: left;
-	border: 1px solid black;
-	height: 1500px;
-}
-
-#leftColumn {
-	width: 610px;
-}
-
-#rightColumn{
- 	float: right;
- 	width: 310px;
- }
- 
-h2 {
-	font-size: 20px;
-	padding: 4px;
-}
-
-table {
-	display: block;
-	width: 580px;
-	margin: 0 auto 0 auto;
-	border-spacing: 0;
-	border-collapse: collapse;
-	
-}
-
-td {
-	border: 1px solid black;
-	text-align: center;
-	vertical-align: middle;
-	
 }
